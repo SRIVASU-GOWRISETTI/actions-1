@@ -5,7 +5,7 @@ on:
 
 jobs:
   testing:
-    runs-on: [srivas-VirtualBox]
+    runs-on: [self-hosted, Linux]
     steps:
       - name: Echo content
         run: |
